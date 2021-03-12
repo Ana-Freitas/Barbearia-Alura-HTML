@@ -1,5 +1,6 @@
 header {
-    background: #CCC;
+    /*background: #CCC;*/
+    background: url("../imgs/bg.jpg");
     padding: 20px 0;
 }
 
@@ -16,7 +17,7 @@ nav li{
 
 nav a {
     text-transform: uppercase;
-    color: #000;
+    color: #FFF;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
@@ -100,4 +101,15 @@ nav {
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+footer {
+    background: url("../imgs/bg.jpg");
+    text-align: center;
+    padding: 40px 0;
+}
+
+.copyright{
+    color: #FFF;
+    font-size: 13px;
 }
