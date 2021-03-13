@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>
+        Contato - Barbearia
+    </title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="assets/imgs/logo-branco.png" alt="logotipo da pagina" /></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form>
+            <label for="nomecompleto">Nome e sobrenome</label>
+            <input type="text" id="nomecompleto" />
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" />
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" />
+
+            <label for="mensagem"> Mensagem </label>
+            <textarea cols="71" rows="10" id="mensagem"></textarea>
+
+            <div>
+                <p>Como prefere o nosso contato?</p>
+                <label for="radioEmail">Email</label>
+                <input type="radio" name="contato" id="radioEmail" value="email">
+
+                <label for="radioTel">Telefone</label>
+                <input type="radio" name="contato" id="radioTel" value="telefone">
+
+                <label for="radioWhattsap">Whatsapp</label>
+                <input type="radio" name="contato" id="radioWhattsap" value="email">
+
+                <label><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+
+                <input type="submit" value="Enviar Formulário" />
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <img src="assets/imgs/logo-branco.png" />
+        <p class="copyright"> &copy Copyright Barbearia Alura</p>
+    </footer>
+</body>
+
+</html>
